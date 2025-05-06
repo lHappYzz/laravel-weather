@@ -1,0 +1,16 @@
+.weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-self: center;
+    width: 30%;
+    border-radius: 0.5rem;
+    background-color: #E8F5E9;
+    box-shadow: rgba(71, 71, 71, 0.66) 4px 4px 10px;
+    padding: 1rem;
+}
+
+body {
+    font-family: sans-serif;
+}

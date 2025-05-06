@@ -1,0 +1,16 @@
+{% extends 'base.twig' %}
+
+{% block content %}
+    <div class="weather">
+        {% if errorMessage %}
+            <div class="error">{{ errorMessage }}</div>
+        {% else %}
+            <h1>🔆 Погода у місті "{{ weather.city }}, {{ weather.country }}"</h1>
+            <p>Температура: {{ weather.temperature }}</p>
+            <p>Опис: {{ weather.condition }}</p>
+            <p>Вологість: {{ weather.humidity }}</p>
+            <p>Швидкість вітру: {{ weather.windSpeed }}</p>
+            <p>Останнє оновлення: {{ weather.lastUpdated }}</p>
+        {% endif %}
+    </div>
+{% endblock %}
