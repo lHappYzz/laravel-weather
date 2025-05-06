@@ -10,7 +10,7 @@ This allows to easily swap API providers without affecting the core business log
 
 The business logic itself is located in the `WeatherService`.
 
-To access the functionality, use the `/weather?city={name}` endpoint
+To access the functionality, use the `/weather?city={name}` endpoint.
 
 There are a couple of tests located in `./tests/Unit/WeatherServiceTest.php`.
 
@@ -28,7 +28,7 @@ composer install
 cp .env.example .env
 ```
 You should get the API key from your account and paste it as the value of the
-`WEATHER_API_KEY` parameter
+`WEATHER_API_KEY` parameter.
 
 The weather feature is now accessible via your browser by the `/weather?city={name}` endpoint.
 
